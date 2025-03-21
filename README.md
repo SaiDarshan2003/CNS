@@ -56,7 +56,9 @@ int main() {
 ```
 
 ### OUTPUT :-
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/9baf16e3-227e-49a3-8260-5f3773cd0cc3)
+
 
 
 ### Result:
