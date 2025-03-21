@@ -10,7 +10,7 @@ STEP-1: Read the plain text from the user.
 
 STEP-2: Read the key value from the user.
 
-STEP-3: If the key is positive then encrypt the text by adding the key with each character in the plain text.
+STEP-3: If the key is positive then encrypt the text
 
 STEP-4: Else subtract the key from the plain text.
 
