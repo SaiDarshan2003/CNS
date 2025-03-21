@@ -56,7 +56,8 @@ int main() {
 ```
 
 ### OUTPUT :-
-![image](https://github.com/user-attachments/assets/975b7a12-496c-4453-ad2c-cc4d22f16ac5)
+![Uploading image.png…]()
+
 
 ### Result:
 Hence the output is verified sucessfully
