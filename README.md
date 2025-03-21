@@ -1,10 +1,10 @@
-## EX. NO: 1(A) : IMPLEMENTATION OF CAESAR CIPHER
+### EX. NO: 1(A) : IMPLEMENTATION OF CAESAR CIPHER
 
-## AIM:
+### AIM:
 
 To implement the simple substitution technique named Caesar cipher using C language.
 
-## ALGORITHM:
+### ALGORITHM:
 
 STEP-1: Read the plain text from the user.
 
@@ -17,7 +17,7 @@ STEP-4: Else subtract the key from the plain text.
 STEP-5: Display the cipher text obtained above.
 
 
-## PROGRAM :-
+### PROGRAM :-
 ```
 #include <stdio.h>
 #include <string.h>
@@ -38,7 +38,6 @@ int main() {
             cipher[i] -= 26;
         else if (islower(plain[i]) && cipher[i] > 'z')
             cipher[i] -= 26;
-        
         printf("%c", cipher[i]);
     }
     cipher[length] = '\0';  // Null-terminate the cipher text
@@ -56,8 +55,8 @@ int main() {
 }
 ```
 
-## OUTPUT :-
+### OUTPUT :-
 ![image](https://github.com/user-attachments/assets/975b7a12-496c-4453-ad2c-cc4d22f16ac5)
 
-## Result:
+### Result:
 Hence the output is verified sucessfully
