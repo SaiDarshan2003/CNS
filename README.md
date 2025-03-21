@@ -25,12 +25,8 @@ STEP-5: Display the cipher text obtained above.
 int main() {
     char plain[100], cipher[100];
     int key, i, length;
-    printf("Enter the plain text: ");
-    scanf("%99s", plain);  // Limit input to 99 characters
-    printf("Enter the key value: ");
+    scanf("%99s", plain); 
     scanf("%d", &key);
-    printf("\nPLAIN TEXT: %s", plain);
-    printf("\nENCRYPTED TEXT: ");
     length = strlen(plain);
     for (i = 0; i < length; i++) {
         cipher[i] = plain[i] + key;
@@ -40,7 +36,7 @@ int main() {
             cipher[i] -= 26;
         printf("%c", cipher[i]);
     }
-    cipher[length] = '\0';  // Null-terminate the cipher text
+    cipher[length] = '\0';  
     printf("\nDECRYPTED TEXT: ");
     for (i = 0; i < length; i++) {
         plain[i] = cipher[i] - key;
